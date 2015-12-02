@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>App Academy Friends</title>
 
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/00-reset.css" type="text/css">
   <link rel="stylesheet" href="css/01-header.css" type="text/css">
   <link rel="stylesheet" href="css/02-notifications.css" type="text/css">
@@ -20,12 +21,78 @@
 </head>
 <body>
 
-  <!-- YOUR HTML HERE -->
+  <header class="header">
+    <nav class="header-nav group">
+      <h1 class="header-logo"><a href="#">App Academy Friends</a></h1>
+
+      <ul class="header-list group">
+        <li>
+          <a href="#">
+            Notifications
+            <strong class="badge group">3</strong>
+          </a>
+
+          <ul class="dropdown group">
+            <li><a href="#">Comment on your post</a></li>
+            <li><a href="#">Like on your post</a></li>
+            <li><a href="#">Post on your wall</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content group">
+    <section class="content-header group">
+      <h1 class="content-heading">Cicero the Eloquent</h1>
+      <button type="button" name="button">Add Friend</button>
+    </section>
+    <section class="content-sidebar group">
+        <a href="#" class='profile-picture'>
+          <img src="../shared/img/cat.jpg" alt="cute cat" />
+          <strong class="online">ONLINE</strong>
+        </a>
+
+      <div class="profile-info group">
+        <h1>Cicero</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <ul class="profile-nav group">
+        <li><a href="#">Wall</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Photos</a></li>
+      </ul>
+
+    </section>
+    <section class="content-main group">
+
+    </section>
+  </main>
+
 
   <script src="../shared/js/jquery.js"></script>
   <script>
 
   </script>
 
+  <footer class="footer">
+    <nav class="footer-nav group">
+      <h1 class="footer-logo">© 2015 App Academy. All rights reserved.</h1>
+
+      <ul class="footer-list group">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
+
 </html>
